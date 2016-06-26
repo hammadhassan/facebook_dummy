@@ -55,7 +55,7 @@ background-color: #3B5998;
 }
 .text {
     font-size: 26px;
-    margin: 114px 165px;
+    margin: 104px 165px;
     color: #0E385F;
     position: absolute;
     font-weight: bold;
@@ -71,4 +71,9 @@ background-color: #3B5998;
 a {
     text-decoration: none;
      color: white;
+}
+.account {
+    font-size: 24px;
+    margin: -40px 917px;
+    color: solid black;
 }

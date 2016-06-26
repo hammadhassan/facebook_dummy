@@ -73,7 +73,16 @@ a {
      color: white;
 }
 .account {
+    font-size: 40px;
+    margin: 92px 742px;
+    position: absolute;
+    width: 100%;
+    font-weight: bold;
+}
+.free {
     font-size: 24px;
-    margin: -40px 917px;
-    color: solid black;
+    margin: 140px 744px;
+    position: absolute;
+    width: 100%;
+    font-weight: bold;
 }

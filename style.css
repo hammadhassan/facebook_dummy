@@ -1,13 +1,16 @@
+
 body {
     font-family: malina;
-    margin: 0;
+    height: 607px;
+    margin: 70px 0 0;
 }
-.header {
-    background: #3B5998 none repeat scroll 0 0;;
-    margin: 0;
-    position: absolute;
-    width: 100%;
+header {
+    background: #3b5998 none repeat scroll 0 0;
     height: 90px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 h1 {
     color: white;
@@ -15,74 +18,78 @@ h1 {
     font-size: 40px;
     margin: 24px 120px;
 }
-
 .p2 {
     color: white;
     font-size: 18px;
     margin: -91px 760px;
     position: absolute;
 }
-
 .p1 {
     color: white;
     font-size: 18px;
     margin: -90px 916px;
     position: absolute;
 }
-
 .input {
     background: #365890 none repeat scroll 0 0;
-    color: white;
-    font-family: helvetica,arial,sans-serif;;
-    font-size: 15px;
-    margin: -62px 1070px;
-    position: absolute;
     border: 0 none;
+    color: white;
     cursor: pointer;
     display: inline-block;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 15px;
     font-weight: bold;
     line-height: 18px;
+    margin: -62px 1070px;
     padding: 0;
+    position: absolute;
 }
 .input:hover {
-background-color: #3B5998;
+    background-color: #3b5998;
 }
-
 .image {
+    background-color: #e8ebf3;
     margin: 175px 139px;
     position: absolute;
-    background-color: #E8EBF3;
 }
 .text {
+    color: #0e385f;
     font-size: 26px;
-    margin: 104px 165px;
-    color: #0E385F;
-    position: absolute;
     font-weight: bold;
-    width: 48%;
-} 
-
-.for {
+    margin: 104px 165px;
     position: absolute;
+    width: 48%;
+}
+.for {
     margin: -40px 917px;
     position: absolute;
     width: 100%;
 }
 a {
+    color: white;
     text-decoration: none;
-     color: white;
 }
 .account {
     font-size: 40px;
+    font-weight: bold;
     margin: 92px 742px;
     position: absolute;
     width: 100%;
-    font-weight: bold;
 }
 .free {
     font-size: 24px;
+    font-weight: bold;
     margin: 140px 744px;
     position: absolute;
     width: 100%;
-    font-weight: bold;
+}
+.body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefefe+0,d3d8e8+100 */
+background: #fefefe; /* Old browsers */
+background: -moz-linear-gradient(top,  #fefefe 0%, #d3d8e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fefefe 0%,#d3d8e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fefefe 0%,#d3d8e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#d3d8e8',GradientType=0 ); /* IE6-9 */
+    height: 607px;
+    margin: 70px 0 0;
 }

@@ -7,7 +7,7 @@ body {
 header {
     background: #3b5998 none repeat scroll 0 0;
     height: 90px;
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     z-index: 1000;
@@ -48,7 +48,6 @@ h1 {
     background-color: #3b5998;
 }
 .image {
-    background-color: #e8ebf3;
     margin: 175px 139px;
     position: absolute;
 }
@@ -84,7 +83,6 @@ a {
     width: 100%;
 }
 .body {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefefe+0,d3d8e8+100 */
 background: #fefefe; /* Old browsers */
 background: -moz-linear-gradient(top,  #fefefe 0%, #d3d8e8 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  #fefefe 0%,#d3d8e8 100%); /* Chrome10-25,Safari5.1-6 */

@@ -62,7 +62,7 @@ h1 {
 .for {
     margin: -40px 917px;
     position: absolute;
-    width: 100%;
+    width: 11%;
 }
 a {
     color: white;
@@ -73,14 +73,14 @@ a {
     font-weight: bold;
     margin: 92px 742px;
     position: absolute;
-    width: 100%;
+    width: 25%;
 }
 .free {
     font-size: 24px;
     font-weight: bold;
     margin: 140px 744px;
     position: absolute;
-    width: 100%;
+    width: 23%;
 }
 .body {
 background: #fefefe; /* Old browsers */
@@ -90,4 +90,11 @@ background: linear-gradient(to bottom,  #fefefe 0%,#d3d8e8 100%); /* W3C, IE10+,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#d3d8e8',GradientType=0 ); /* IE6-9 */
     height: 607px;
     margin: 70px 0 0;
+}
+.block {
+    align-self: center;
+    display: block;
+    font-size: 0;
+    height: 0;
+    position: inherit;
 }

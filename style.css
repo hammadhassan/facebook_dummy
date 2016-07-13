@@ -55,9 +55,9 @@ h1 {
     color: #0e385f;
     font-size: 26px;
     font-weight: bold;
-    margin: 104px 165px;
+    margin: 104px 100px;
     position: absolute;
-    width: 48%;
+    width: 40%;
 }
 .for {
     margin: -40px 917px;
@@ -65,15 +65,15 @@ h1 {
     width: 11%;
 }
 a {
-    color: white;
+    color: #9cb4d8;
     text-decoration: none;
 }
 .account {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
-    margin: 92px 742px;
+    margin: 74px 742px;
     position: absolute;
-    width: 25%;
+    width: 32%;
 }
 .free {
     font-size: 24px;
@@ -100,4 +100,61 @@ a {
     font-size: 0;
     position: inherit;
     width: 100%;
+}
+#reg_box {
+    position: static;
+    width: auto;
+}
+.name {
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 16px;
+    height: 18px;
+    margin: 191px 0 0 753px;
+    padding: 8px 10px;
+    position: inherit;
+}
+.surname {
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 16px;
+    height: 18px;
+    margin: -26px 0 0 950px;
+    padding: 8px 10px;
+    position: inherit;
+}
+.number {
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 16px;
+    height: 18px;
+    margin: 0 0 0 754px;
+    padding: 8px 10px;
+    position: inherit;
+    width: 377px;
+}
+.reenter {
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 16px;
+    height: 18px;
+    margin: 10px 0 0 754px;
+    padding: 8px 10px;
+    position: inherit;
+    width: 377px;
+}
+.newpassword {
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 16px;
+    height: 18px;
+    margin: 10px 0 0 754px;
+    padding: 8px 10px;
+    position: inherit;
+    width: 377px;
 }

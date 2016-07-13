@@ -97,7 +97,7 @@ a {
 .wrapper {
     background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #fefefe 0%, #d3d8e8 100%) repeat scroll 0 0;
     display: block;
-    font-size: 0;
+    font-size: 0px;
     position: inherit;
     width: 100%;
 }
@@ -111,7 +111,7 @@ a {
     border-style: solid;
     font-size: 16px;
     height: 18px;
-    margin: 191px 0 0 753px;
+    margin: 191px 0px 0px 753px;
     padding: 8px 10px;
     position: inherit;
 }
@@ -121,7 +121,7 @@ a {
     border-style: solid;
     font-size: 16px;
     height: 18px;
-    margin: -26px 0 0 950px;
+    margin: -26px 0px 0px 950px;
     padding: 8px 10px;
     position: inherit;
 }
@@ -131,7 +131,7 @@ a {
     border-style: solid;
     font-size: 16px;
     height: 18px;
-    margin: 0 0 0 754px;
+    margin: 0px 0px 0px 754px;
     padding: 8px 10px;
     position: inherit;
     width: 377px;
@@ -142,7 +142,7 @@ a {
     border-style: solid;
     font-size: 16px;
     height: 18px;
-    margin: 10px 0 0 754px;
+    margin: 10px 0px 0px 754px;
     padding: 8px 10px;
     position: inherit;
     width: 377px;
@@ -153,8 +153,34 @@ a {
     border-style: solid;
     font-size: 16px;
     height: 18px;
-    margin: 10px 0 0 754px;
+    margin: 10px 0px 0px 754px;
     padding: 8px 10px;
     position: inherit;
     width: 377px;
+}
+.birthday {
+    font-size: 20px;
+    margin: 7px 0px 0px 758px;
+}
+#dropdown {
+    margin: 0px 0px 0px 758px;
+}
+#gender {
+    margin: 0px 0px 0px 758px;
+    font-size: 19px
+}
+.button {
+    font-size: 15px;
+    margin: 72px 0px 0px 758px;
+    font-weight: bold;
+    background: #69a74e linear-gradient(#67ae55, #578843) repeat scroll 0 0;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    box-shadow: 0 1px 1px #a4e388 inset;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    padding: 10px 27px;
 }

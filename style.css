@@ -1,4 +1,8 @@
 
+@font-face {
+    font-family: Malina-Light;
+    src: url(font/Malina_Light.ttf);
+}
 body {
     font-family: malina;
     height: 607px;
@@ -179,7 +183,7 @@ a {
     color: black;
     font-size: 18px;
     font-weight: bold;
-    margin: auto auto auto 747px;
+    margin: auto auto auto 762px;
     position: inherit;
 }
 .button {

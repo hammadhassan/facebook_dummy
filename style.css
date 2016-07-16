@@ -15,7 +15,7 @@ header {
 }
 h1 {
     color: white;
-    font-family: malina;
+    font-family: inherit;
     font-size: 40px;
     font-weight: bold;
     height: 50px;
@@ -77,14 +77,14 @@ a {
 .account {
     font-size: 50px;
     font-weight: bold;
-    margin: 74px 742px;
+    margin: 74px 752px;
     position: absolute;
     width: 32%;
 }
 .free {
     font-size: 24px;
     font-weight: bold;
-    margin: 140px 744px;
+    margin: 140px 752px;
     position: absolute;
     width: 23%;
 }
@@ -164,17 +164,19 @@ a {
 .birthday {
     color: black;
     font-size: 20px;
-    font-weight: bold;
-    margin: 7px 0 0 758px;
+    margin: auto 747px;
+    padding: 8px;
 }
 #dropdown {
-    margin: 0px 0px 0px 758px;
+    margin: auto auto auto 747px;
+    padding: 8px;
 }
 #gender {
     color: black;
     font-size: 18px;
     font-weight: bold;
-    margin: 0 0 0 758px;
+    margin: auto auto auto 747px;
+    position: inherit;
 }
 .button {
     font-size: 15px;

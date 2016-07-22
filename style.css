@@ -4,7 +4,7 @@
     src: url(font/Malina_Light.ttf);
 }
 body {
-    font-family: malina;
+    font-family: Arial, Helvetica, sans-serif;
     height: 607px;
     margin: 70px 0 0;
 }
@@ -276,7 +276,7 @@ hr {
     margin: 0px;
     color: #365899;
 }
-.copyright{
+.copyright  {
     width: 100%;
     font-size: 11px;
     color: #262729;
